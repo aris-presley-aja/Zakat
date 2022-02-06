@@ -1,0 +1,65 @@
+/*This stylesheet contains some custom class rather than Bootstrap*/
+		
+a.brand img {
+	border-radius:50%;
+	border:5px solid #fff;
+}
+.profile, .skills, .work, .resume {
+	padding:30px 0;
+}
+.profile h2, .skills h2, .work h2, .resume h2 {
+	font-weight:normal;
+	color: #09ff00;
+}
+/***** Profile *****/
+	.profile h1 {
+	color:#39d084;
+	font-weight: normal;
+}
+.profile h3 {
+	color:#fff;
+	font-weight: normal;
+}
+.profile p {
+	color:#fff;
+	font-size:18px;
+	line-height: 35px;
+	margin-top: 30px;
+}
+.profile .container .span5 {
+	padding:40px 0;
+}
+a.hire-me {
+	display: inline-block;
+ *display: inline;
+	padding:20px 60px;
+	background:#39d084;
+	color:#fff;
+	text-transform:uppercase;
+	font-size:26px;
+	margin:20px 0;
+	-webkit-border-radius: 40px;
+	-moz-border-radius: 40px;
+	border-radius: 40px;
+}
+
+.background {
+	background:#87b600;
+	position: fixed;
+	width: 100%;
+	bottom:0;
+}
+.backgrounds {
+	background:#40ff00;
+	position: fixed;
+	width: 100%;
+	bottom:0;
+}
+
+
+.innerbackground {
+	background:#40ff00;
+	position: fixed;
+	width: 70%;
+	bottom:0;
+}

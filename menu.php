@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+      <link href="css/styles.cs" rel="stylesheet">
+<style>
+#menu{
+  border-top:bold 2px solid #248f24;
+  color:#248f24;
+  display:block;
+  background-color:#FFFFFF;
+  padding:10px;
+}
+#leftmenu {
+  width:90%;
+  font: 1em"Comic Sans MS",arial,verdana,sans-serif;}
+#leftmenu li a {
+  text-decoration:none;
+  border-top:2px solid #2eb82e;
+  color:#fff;
+  display:block;
+  background-color:#248f24;
+  padding:6px;}
+#leftmenu li a:hover {
+  background-color:#d1756c;
+  font-style: bold;
+
+}
+#leftmenu ul {
+  list-style:none;
+  padding:0px;}
+#leftmenu ul ul{
+  position:absolute;
+  border: 1px solid #e1a29b;
+  top:60px;
+  left:90px;
+  visibility:hidden;
+} 
+#leftmenu ul li:hover ul{
+  visibility:visible;}
+  #backgrounded {
+    top: -0%;
+	background:#87b600;
+	position: fixed;
+	width: 100%;
+  height: auto;
+  bottom:0;
+}
+</style>
+  <title>Hitung Zakat</title>
+</head>
+<body>
+  
+<div id="leftmenu">
+<div id="backgrounded">
+<ul>
+    <li id=""><center><font color="#ff0066">Menu Zakat</center></font></li>
+    <li><a href="zakat-fitrah.php" target="isi">Zakat Fitrah</a></li>
+    <li><a href="zakat-perdagangan.php" target="isi">Zakat Perdagangan</a></li>
+    <li><a href="zakat-pertanian.php" target="isi">Zakat Pertanian</a></li>
+    <li><a href="zakat-hewan.php" target="isi">Zakat Hewan Ternak</a></li>
+    <li><a href="zakat-emasdanperak.php" target="isi">Zakat Emas dan Perak</a></li>
+    <li><a href="zakat-profesi.php" target="isi">Zakat Profesi/Penghasilan</a></li>
+    <li><a href="zakat-investasi.php" target="isi">Zakat Investasi</a></li>
+    <li><a href="zakat-tabungan.php" target="isi">Zakat Tabungan</a></li>
+    <li><a href="zakat-rikaz.php" target="isi">Zakat Rikaz</a></li>
+     <li><a href="profile.php" target="isi">Profile Pembuat</a></li>
+
+
+  </ul>
+</div>
+</div>
+<script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</body>
+</html>
